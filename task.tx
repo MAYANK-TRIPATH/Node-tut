@@ -1,0 +1,16 @@
+What we are going to do in this simple project
+
+We are building REST API which will fetch JSON Files/Data.
+
+GET /api/users - List  all users JSON
+GET /users - HTML Document Render
+
+
+GET /api/users/1 - Get then user with ID 1
+GET /api/users/2 - Get then user with ID 2
+
+POST /api/users - Create new user
+
+PATCH /api/users/1 - Edit the user with ID 1
+
+DELETE /api/users/1 - Delete the user with ID 1
