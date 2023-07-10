@@ -1,0 +1,24 @@
+ 1. It works on server-client artitecture.
+
+
+                       Req. 
+ |-----------|  ---------------------->    |-----------|          
+ | CLIENT    |         Res.                |  Server   |
+ |___________|  <-----------------------   |___________|
+
+
+                       Req. 
+ |-----------|  ---------------------->    |-----------|          
+ | DATABASE  |                             |  JSON     | This Json date render in client
+ |___________|                             |___________|  Screen.
+
+
+2. Always respect all HTTP method.
+   GET / POST /  PUT /  PATCH / DELETE
+           
+           Best practices
+GET/ user     -->  users data read then return data.
+POST/ user    -->  handle new user creation.
+PATCH/ user   -->  update the user. 
+
+

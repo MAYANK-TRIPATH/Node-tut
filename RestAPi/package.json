@@ -1,14 +1,9 @@
 {
-<<<<<<< HEAD
   "name": "restapi",
-=======
-  "name": "first",
->>>>>>> 86185ed94b3430dc3a3d6606a7cbc223f4ed0fba
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
@@ -17,10 +12,4 @@
   "dependencies": {
     "express": "^4.18.2"
   }
-=======
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
->>>>>>> 86185ed94b3430dc3a3d6606a7cbc223f4ed0fba
 }
