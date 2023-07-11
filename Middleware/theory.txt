@@ -1,0 +1,14 @@
+Middleware :- Middleware is a funcion which implements with req and res.
+It firstly take res. from client and validate/verify for all possible errors and problems
+(by sets of processes) then after it will do :-
+1. forward the request to the function. 
+2. return back req to the client and end the process. 
+
+
+|-----------|  req        |----------- | 1. forword req  |--------------|
+|  Client   |---------->  |Middleware  |---------------> |   Function   |
+|___________|<----------  |____________|                 |______________|
+              2.  res
+
+ There can be more than one middleware in program (all middleware have diff tasks to perform)
+            
