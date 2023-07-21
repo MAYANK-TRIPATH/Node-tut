@@ -1,0 +1,7 @@
+So in Mongo we first make Schema --> Model --> Then perform CRUD operations.
+
+Schema :- Defines the structure (Artitecture of Database)
+
+Schmea --> Model Making
+
+using Model we do CRUD operations.
